@@ -1,5 +1,5 @@
 {
-    "name": "gustavo/curso",
+    "name": "redteenmutantninjaturtle/curso",
     "type": "project",
     "require-dev": {
         "phpunit/phpunit": "^9.5"
