@@ -1,0 +1,3 @@
+[2022-08-26T13:43:10.912005+00:00] name.WARNING: Foo [] []
+[2022-08-26T13:43:11.142106+00:00] name.ERROR: Bar [] []
+[2022-08-26T13:50:35.391208+00:00] name.WARNING: Message: May the force be with you. [] []
