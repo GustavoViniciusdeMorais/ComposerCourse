@@ -23,10 +23,15 @@ composer dump-autoload
 chmod +x composer.sh
 ./composer.sh
 
+# PSR VALIDATOR
 composer require squizlabs/php_codesniffer
 
 vendor/bin/phpcs --standard=PSR2 src/Controllers/MainController.php # show file errors
 
 vendor/bin/phpcbf --standard=PSR2 src/Controllers/MainController.php # fix file errors
+
+# Interface Example
+
+composer require psr/log # it is implemented at the src/Logger folder
 
 ```
